@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.MainActivity"
+    android:orientation="vertical">
+    <!--导航栏-->
+   <androidx.appcompat.widget.Toolbar
+       android:id="@+id/tool_bar"
+       android:layout_width="match_parent"
+       android:layout_height="?android:attr/actionBarSize"
+       android:background="?attr/colorPrimary"
+       android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+       app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+   </androidx.appcompat.widget.Toolbar>
+
+    <Button
+        android:id="@+id/btn_recyclerView"
+        android:text="RecyclerView的应用"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/btn_collapseing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CoordinatorLayout的应用"
+        android:textAllCaps="false" />
+    <Button
+        android:text="TabLayout的应用"
+        android:id="@+id/btn_tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false" />
+
+    <Button
+        android:text="Navigation的应用"
+        android:id="@+id/btn_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"/>
+
+
+</LinearLayout>
